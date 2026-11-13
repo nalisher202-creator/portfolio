@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    height: 90vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: #312;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  list-style: none;
+  gap: 20px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
